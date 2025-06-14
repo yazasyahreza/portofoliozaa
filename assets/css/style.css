@@ -13,191 +13,50 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
   transition: background-color 0.5s, color 0.5s;
-}
-
-.morning {
-  background-image: url(../images/morning.jpg);
+  background-image: url(../images/bg3.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  .text-title {
-    color: #000;
-  }
-  .text-subtitle {
-    color: #212529;
-  }
-  .btn-custom {
-    background-color: #d63384;
-  }
-
-  .nav-pills .nav-link.active {
-    background: #d63384;
-    color: white;
-    border: 6px solid rgba(225, 225, 225, 0.5);
-    border-radius: 15px;
-    font-weight: bold;
-  }
-
-  .nav-pills .nav-link {
-    color: black;
-    border: 6px solid rgba(214, 51, 132, 0.4);
-    border-radius: 15px;
-    font-weight: bold;
-  }
-
-  .dot {
-    height: 10px;
-    width: 10px;
-    background-color: var(--bs-orange);
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-  .check-cs {
-    color: #fd7e14;
-  }
-
-  .link {
-    color: #000;
-  }
 }
 
-.afternoon {
-  background-image: url(../images/afternoon.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  .text-title {
-    color: #000;
-  }
-  .text-subtitle {
-    color: #212529;
-  }
-  .btn-custom {
-    background-color: #ffc107;
-  }
-  .dot {
-    height: 10px;
-    width: 10px;
-    background-color: var(--bs-blue);
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-  .nav-pills .nav-link.active {
-    background: #ffc107;
-    color: white;
-    border: 6px solid rgba(225, 225, 225, 0.5);
-    border-radius: 15px;
-    font-weight: bold;
-  }
-
-  .nav-pills .nav-link {
-    color: black;
-    border: 6px solid rgba(255, 193, 7, 0.4);
-    border-radius: 15px;
-    font-weight: bold;
-  }
-
-  .link {
-    color: #000;
-  }
-
-  .check-cs {
-    color: #0d6efd;
-  }
+.text-title {
+  color: #fff;
+}
+.text-subtitle {
+  color: #adb5bd;
+}
+.btn-custom {
+  background-color: #0d6efd;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: var(--bs-pink);
+  border-radius: 50%;
+  display: inline-block;
 }
 
-.evening {
-  background-image: url(../images/evening.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  .text-title {
-    color: #000;
-  }
-  .text-subtitle {
-    color: #212529;
-  }
-  .btn-custom {
-    background-color: #fd7e14;
-  }
-  .dot {
-    height: 10px;
-    width: 10px;
-    background-color: var(--bs-blue);
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-  .nav-pills .nav-link.active {
-    background: #fd7e14;
-    color: white;
-    border: 6px solid rgba(225, 225, 225, 0.5);
-    border-radius: 15px;
-    font-weight: bold;
-  }
-
-  .nav-pills .nav-link {
-    color: #212529;
-    border: 6px solid rgba(253, 126, 20, 0.4);
-    border-radius: 15px;
-    font-weight: bold;
-  }
-
-  .link {
-    color: #000;
-  }
-
-  .check-cs {
-    color: #0d6efd;
-  }
+.nav-pills .nav-link.active {
+  background: #0d6efd;
+  color: white;
+  border: 6px solid rgba(225, 225, 225, 0.5);
+  border-radius: 15px;
+  font-weight: bold;
 }
 
-.night {
-  background-image: url(../images/night.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  .text-title {
-    color: #fff;
-  }
-  .text-subtitle {
-    color: #adb5bd;
-  }
-  .btn-custom {
-    background-color: #0d6efd;
-  }
-  .dot {
-    height: 10px;
-    width: 10px;
-    background-color: var(--bs-pink);
-    border-radius: 50%;
-    display: inline-block;
-  }
+.nav-pills .nav-link {
+  color: white;
+  border: 6px solid rgba(13, 110, 253, 0.4);
+  border-radius: 15px;
+  font-weight: bold;
+}
 
-  .nav-pills .nav-link.active {
-    background: #0d6efd;
-    color: white;
-    border: 6px solid rgba(225, 225, 225, 0.5);
-    border-radius: 15px;
-    font-weight: bold;
-  }
+.link {
+  color: #fff;
+}
 
-  .nav-pills .nav-link {
-    color: white;
-    border: 6px solid rgba(13, 110, 253, 0.4);
-    border-radius: 15px;
-    font-weight: bold;
-  }
-
-  .link {
-    color: #fff;
-  }
-
-  .check-cs {
-    color: #d63384;
-  }
+.check-cs {
+  color: #d63384;
 }
 
 img {
