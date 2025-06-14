@@ -825,33 +825,5 @@
       </p>
     </footer>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
-
-    <script>
-      function setThemeBasedOnTime() {
-        const now = new Date();
-        const hour = now.getHours();
-        const body = document.body;
-
-        if (hour >= 6 && hour < 10) {
-          // Pagi
-          body.className = "morning";
-        } else if (hour >= 10 && hour < 15) {
-          // Siang
-          body.className = "afternoon";
-        } else if (hour >= 15 && hour < 18) {
-          // Sore
-          body.className = "evening";
-        } else {
-          // Malam
-          body.className = "night";
-        }
-      }
-
-      // Set theme saat halaman pertama kali dimuat
-      setThemeBasedOnTime();
-
-      // Update theme setiap 60 detik
-      setInterval(setThemeBasedOnTime, 60000);
-    </script>
   </body>
 </html>
