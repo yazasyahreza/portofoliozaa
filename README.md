@@ -1,2 +1,2 @@
 # portofoliozaa
-Ini portofolio saya dalam bentuk web sederhana menggunakan HTML dan CSS. Website ini menampilkan beberapa halaman seperti data pribadi, projects yang telah saya buat, skill, dan penghargaan yang pernah saya dapatkan.
+This is my portfolio in a simple web form using HTML and CSS. This website displays several pages such as personal data, projects I have created, skills, and awards I have received.
